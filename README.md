@@ -4,8 +4,10 @@
 1. Pastikan Anda memiliki Python 3.13.1 terinstal.
 2. Install semua dependensi dengan perintah: 
 pip install -r requirements.txt
-3. Jalankan dashboard dengan perintah:
-streamlit run dashboard/dashboard.py
+3. masuk dulu ke folder dashboard:
+cd dashboard
+4. Jalankan dashboard dengan perintah:
+streamlit run index.py
 
 
 # Tentang Dataset
@@ -14,5 +16,4 @@ Dataset yang digunakan adalah data penyewaan sepeda harian dan per jam (`data_da
 # Fitur Dashboard
 - *Filter Musim dan Hari*: Memungkinkan pengguna untuk memfilter data berdasarkan musim dan hari.
 - *Visualisasi Penyewaan*: Menampilkan jumlah penyewaan sepeda berdasarkan musim.
-
 
